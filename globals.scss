@@ -1,0 +1,447 @@
+// global.scss
+
+.porto-seguro-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #3da1ff; /* Cor azul da Porto Seguro */
+    color: #ffffff; /* Cor branca para o texto */
+  }
+  
+  
+  .porto-seguro-nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .porto-seguro-link {
+    color: #000000; /* Cor branca para os links */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .porto-seguro-link:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+.porto-seguro-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Cor de fundo clara */
+  }
+  
+  .porto-seguro-logo {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .porto-seguro-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3da1ff; /* Cor azul da Porto Seguro */
+  }
+  
+
+
+
+.conteudo-home {
+    text-align: center;
+    max-width: 600px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .conteudo-title {
+    font-size: 1.5rem;
+    color: #3da1ff; /* Azul Porto Seguro */
+  }
+  
+  .conteudo-text {
+    margin-bottom: 10px;
+    color: #333; /* Cor de texto padrão */
+  }
+  
+  .conteudo-links {
+    margin-top: 20px;
+  }
+  
+  .link-cadastro, .link-minha-conta {
+    color: #3da1ff; /* Azul Porto Seguro */
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .link-cadastro:hover, .link-minha-conta:hover {
+    color: #00274d; /* Azul Porto Seguro mais escuro no hover */
+  }
+  
+ 
+
+
+.vistoria-pagina {
+    padding: 20px;
+  }
+  
+  .titulo {
+    font-size: 2rem;
+    color: #3da1ff; /* Cor azul da Porto Seguro */
+  }
+  
+  .lista-vistorias {
+    margin-top: 20px;
+  }
+  
+  .item-vistoria {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .botoes {
+    margin-top: 20px;
+  }
+  
+  .botao-vistoria,
+  .botao-voltar {
+    background-color: #3da1ff; /* Cor azul da Porto Seguro */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .botao-vistoria:hover,
+  .botao-voltar:hover {
+    background-color: #3da1ff; /* Cor azul mais escura da Porto Seguro */
+  }
+  
+  .porto-seguro-sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; /* Cor de fundo branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .porto-seguro-sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #3da1ff; /* Cor azul da Porto Seguro */
+  }
+  
+  .porto-seguro-sobre h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333; /* Cor de texto padrão */
+  }
+  
+  .porto-seguro-sobre iframe {
+    width: 100%;
+    height: 315px; /* Altura do vídeo */
+    margin-top: 20px;
+  }
+
+
+
+.porto-seguro-servico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Cor de fundo clara */
+  }
+  
+  .porto-seguro-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3da1ff; /* Cor azul da Porto Seguro */
+  }
+  
+  .porto-seguro-paragraph {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+.porto-seguro-impressao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Cor de fundo clara */
+  }
+  
+  .porto-seguro-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3da1ff; /* Cor azul da Porto Seguro */
+  }
+  
+  .porto-seguro-impressao p {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+  }
+
+
+  .porto-seguro-nova-vistoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Cor de fundo clara */
+  }
+  
+  .porto-seguro-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3da1ff; /* Cor azul da Porto Seguro */
+  }
+  
+  .porto-seguro-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .porto-seguro-label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #3da1ff; /* Cor azul da Porto Seguro */
+  }
+  
+  .porto-seguro-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #3da1ff; /* Cor azul da Porto Seguro */
+    border-radius: 4px;
+  }
+  
+  .porto-seguro-button {
+    background-color: #3da1ff; /* Cor azul da Porto Seguro */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .porto-seguro-button:hover {
+    background-color: #002855; /* Cor azul mais escura para o efeito hover */
+  }
+
+
+  .porto-seguro-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Cor de fundo clara */
+  }
+  
+  .login-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00417e; /* Cor azul da Porto Seguro */
+  }
+  
+  .login-form {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .login-label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #333; /* Cor padrão para rótulos */
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd; /* Borda leve */
+  }
+  
+  .login-link {
+    color: #00417e; /* Cor azul da Porto Seguro */
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .porto-seguro-conta-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Cor de fundo clara */
+    color: #3da1ff;
+  }
+  
+  .porto-seguro-link {
+    color: #000000; /* Cor azul da Porto Seguro */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .porto-seguro-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .porto-seguro-table th,
+  .porto-seguro-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .porto-seguro-button {
+    background-color: #e74c3c; /* Cor vermelha para botões */
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .porto-seguro-button:hover {
+    background-color: #c0392b; /* Cor vermelha mais escura no hover */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .cadastro-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cadastro-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3da1ff; /* Cor azul da Porto Seguro */
+  }
+  
+  .cadastro-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .form-section-title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #3da1ff;
+  }
+  
+  .form-radio {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-button {
+    background-color: #3da1ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #3da1ff;
+  }
+
+// global.scss
+
+.porto-seguro-rodape {
+    background-color: #3da1ff; /* Cor azul da Porto Seguro */
+    color: #fff; /* Cor de texto branca */
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+// global.scss
+
+// Adicione as regras de estilo padrão aqui
+
+@media screen and (max-width: 600px) {
+  // Estilos específicos para telas menores que 600px de largura
+
+  .cadastro-form,
+  .conteudo-home,
+  .vistoria-pagina,
+  .porto-seguro-sobre,
+  .porto-seguro-servico,
+  .porto-seguro-impressao,
+  .porto-seguro-nova-vistoria,
+  .porto-seguro-login,
+  .porto-seguro-conta-usuario {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .porto-seguro-form {
+    width: 100%;
+  }
+
+  .porto-seguro-table {
+    width: 100%;
+  }
+}
